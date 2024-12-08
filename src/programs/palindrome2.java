@@ -1,6 +1,6 @@
-package Array;
+package programs;
 
-public class palindrome {
+public class palindrome2 {
 	//int num = 12321;
 	String rev = " ";
 	
@@ -22,7 +22,7 @@ public class palindrome {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		palindrome p = new palindrome();
+		palindrome2 p = new palindrome2();
 		p.pali("MADAM");
 
 	}

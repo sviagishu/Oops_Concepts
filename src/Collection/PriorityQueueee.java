@@ -14,7 +14,7 @@ public class PriorityQueueee {
 		abc.add("abi");
 		abc.add("ganesh");
 		abc.add("jk");
-		abc.add("ishu");
+		abc.add("sviag");
 		System.out.println("Head of the container/queue: " +abc.element());
 		System.out.println("Head of the container/queue: " +abc.peek());
 		

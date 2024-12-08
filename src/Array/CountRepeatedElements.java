@@ -1,6 +1,6 @@
 package Array;
 
-public class foundRepeatedElements {
+public class CountRepeatedElements {
 
 	public static void main(String[] args) {
 		
