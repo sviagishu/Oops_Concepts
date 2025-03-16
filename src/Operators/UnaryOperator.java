@@ -16,7 +16,7 @@ public class UnaryOperator {
 		System.out.println(i++);  
 		System.out.println(i--);  
 		System.out.println(++i); 
-		
+		// I think so the position may/may not had been filled.
 		System.out.println("**** Type 2 ****");
 		System.out.println(a++ + ++a);
 		

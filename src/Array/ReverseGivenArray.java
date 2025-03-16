@@ -16,6 +16,7 @@ public class ReverseGivenArray {
 		int a[] = new int [5];
 		System.out.print("Enter an array:");
 		Scanner sc = new Scanner(System.in);
+		
 		   		
 		for(int i=0; i<a.length; i++) {
 			 a[i]  = sc.nextInt();
@@ -24,9 +25,9 @@ public class ReverseGivenArray {
 		}
 		
 		//Reversing an array
-		System.out.println("Reverse an Array: ");
+		System.out.println("\n" + "Reverse an Array: ");
 		for(int i=a.length-1; i>=0; i--) {
-			System.out.print(a[i] + " " );
+			System.out.print(a[i] + " " + "\t");
 		}
 		
 		// using collection method but use wrapper class - Integer

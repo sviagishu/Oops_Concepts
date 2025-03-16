@@ -1,8 +1,8 @@
 package programs;
 
-public class palindrome2 {
-	//int num = 12321;
-	String rev = " ";
+public class palindromeString {
+	String rev = "";
+	
 	
 	void pali(String n) {
 		int len = n.length();
@@ -18,13 +18,14 @@ public class palindrome2 {
 		}
 	}
 
-	
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		palindrome2 p = new palindrome2();
+	    palindromeString p = new palindromeString();
 		p.pali("MADAM");
 
 	}
 
 }
+
+
+// i = 5-1 (4); 4>=0; ->  

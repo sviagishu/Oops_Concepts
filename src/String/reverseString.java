@@ -1,4 +1,4 @@
-package programs;
+package String;
 
 import java.util.Scanner;
 
@@ -12,13 +12,13 @@ public class reverseString {
 		
 		String org = str;
 		
-		//Approach 1 - using concatenation operator
-//		String rev = "";
-//		int len = str.length();
-//		for(int i = len-1; i>=0; i--) {
-//			rev = rev + str.charAt(i);
-//		}
-//		System.out.println("revered string: " +rev);
+	//	Approach 1 - using concatenation operator
+		String rev = "";
+		int len = str.length();
+		for(int i = len-1; i>=0; i--) {
+			rev = rev + str.charAt(i);
+		}
+		System.out.println("revered string: " +rev);
 		
 		
 		//Approach 2 - using character array(convert string into char array
@@ -32,11 +32,11 @@ public class reverseString {
 		
 		
 		//Approach 3 - using String Buffer class
-		//String rev = "";
-		StringBuffer sb = new StringBuffer(str);
-		StringBuffer rev = sb.reverse();
-		System.out.println("reveresed number: "+ rev);
-			
+//		StringBuffer sb = new StringBuffer("ishwarya");
+//        sb.reverse();  // Reverse the StringBuffer
+
+        // Print the reversed string directly from StringBuffer
+//        System.out.println("Reversed string: " + sb.toString());
 	}
 
 }

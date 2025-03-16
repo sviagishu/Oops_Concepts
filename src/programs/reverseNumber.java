@@ -14,15 +14,15 @@ public class reverseNumber {
 		int org = num;
 		
 		// Approach 1 - using algorithm
-//		int rev = 0;
+		int rev = 0;
 		
-//		while(num!=0)     // 1232
-//		{
-//			rev = rev*10 + num%10;  // 0*10 + 1232%10 = 0+2 = 2
-//			num = num/10;     // 1232/10 = 123
-//		}
+		while(num!=0)     // 1232
+		{
+			rev = rev*10 + num%10;  // 0*10 + 1232%10 = 0+2 = 2
+			num = num/10;     // 1232/10 = 123
+		}
 
-//		System.out.println("reversed number: " +rev);
+		System.out.println("reversed number: " +rev);
 		
 		
 		// Approach 2 - using StringBuffer class
@@ -32,9 +32,9 @@ public class reverseNumber {
 //		System.out.println("reveresed number: "+ revv);
 		
 		// Approach 3 - Using StringBuilder Class
-		StringBuilder sb = new StringBuilder(String.valueOf(num));
-		StringBuilder rev3 = sb.reverse();
-		System.out.println("revered order: " + rev3);
+//		StringBuilder sb = new StringBuilder(String.valueOf(num));
+//		StringBuilder rev3 = sb.reverse();
+//		System.out.println("revered order: " + rev3);
 	}
 }
 	

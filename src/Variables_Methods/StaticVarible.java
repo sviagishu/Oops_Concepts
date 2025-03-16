@@ -19,6 +19,7 @@ public class StaticVarible {
 		sta.age = 23;
 		sta.name = "ishu";
 		sta.brand = "samsung";
+	//	StaticVarible.brand = "samsung";
 		
 		StaticVarible sta1 = new StaticVarible();
 		sta1.age = 24;
