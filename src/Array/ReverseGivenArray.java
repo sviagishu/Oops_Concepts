@@ -10,19 +10,26 @@ public class ReverseGivenArray {
 	public static void main(String[] args) {
 		
 //		getting input in compile time
-	//	int a [] = {4,6,5,3,2};
+		int a [] = {4,6,5,3,2};
 		
 		//getting input in run time
-		int a[] = new int [5];
-		System.out.print("Enter an array:");
-		Scanner sc = new Scanner(System.in);
+//		int a[] = new int [5];
+//		System.out.print("Enter an array:");
+//		Scanner sc = new Scanner(System.in);
+//		
+//		   		
+//		for(int i=0; i<a.length; i++) {
+//			 a[i]  = sc.nextInt();
+//			System.out.print(a[i] + " ");
+//
+//		}
 		
-		   		
-		for(int i=0; i<a.length; i++) {
-			 a[i]  = sc.nextInt();
-			 System.out.print(a[i] + " ");
-
-		}
+//		for(int i=0; i<a.length; i++) {
+//			 System.out.print(a[i] + " ");
+//
+//		}
+		
+		
 		
 		//Reversing an array
 		System.out.println("\n" + "Reverse an Array: ");

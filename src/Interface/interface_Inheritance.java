@@ -1,6 +1,5 @@
 // interface extends interface
 
-
 package Interface;
 
 interface dog {

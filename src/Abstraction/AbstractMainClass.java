@@ -19,6 +19,7 @@ abstract class Animal {
 		System.out.println("wewewe");
 	}
 }
+ 
 public class AbstractMainClass {
 	public static void main(String args[])
 	{

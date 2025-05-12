@@ -4,7 +4,12 @@ public class TransposeMatrix {
 	
 	public static void main(String arg[]) {
 		//int a[][] = new int[3][3];
-		int a[][] = new int[][] {{2,5,9},{1,8,4},{2,4,7}}; // or int a[][] = {{}}}{{}}{{}};
+		//int a[][] = new int[][] {{2,5,9},{1,8,4},{2,4,7}};  or int a[][] = {{}}}{{}}{{}};
+		
+
+		int a[][] = {{2,5,9},{1,8,4},{2,4,7}};
+		
+		
 		System.out.println("Before Transpose");
 		for(int i=0; i<3; i++) {
 			for(int j=0; j<3; j++) {
