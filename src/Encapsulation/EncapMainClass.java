@@ -11,8 +11,8 @@ package Encapsulation;
 		return name;
 	}
 	//set Method
-	public void setName(String myName) {
-		this.name = myName;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 }

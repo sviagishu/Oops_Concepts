@@ -1,4 +1,4 @@
-package String;
+package stringgg;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class reverseString {
 		
 	//	Approach 1 - using concatenation operator
 		String rev = "";
-		int len = str.length();
+		 int len = str.length();
 		for(int i = len-1; i>=0; i--) {
 			rev = rev + str.charAt(i);
 		}

@@ -18,7 +18,7 @@ public class singleDimentionalArray {
     
 		
 		System.out.println("****Printing array values********");
-		for(int element:a)
+		 for(int element:a)
         System.out.println(element);
 	}
 

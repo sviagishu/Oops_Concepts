@@ -29,14 +29,9 @@ public class MultiDimensionalArrayAdditionMatrix {
 			}
 			
 			System.out.println( ); // new line
-			
-			
+				
 		}
 		
-		
-		
-		
-
 	}
 
 }

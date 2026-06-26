@@ -10,7 +10,7 @@ public class searchElementInArray {
 		int sea = 1000;
 		boolean flag = false;
 		for(int x : a) {
-			if(x==sea) {
+	     	if(x==sea) {
 				System.out.println("Element found");
 				flag = true;
 				break;

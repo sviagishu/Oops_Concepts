@@ -10,7 +10,7 @@ public class ExtractNumberInString {
 		//loop through the string to extract the digits
 		for(int i = 0; i<s.length(); i++ ) {
 			if(Character.isDigit(s.charAt(i))) {
-				num.append(s.charAt(i));
+				 num.append(s.charAt(i));
 			}
 		}
 		

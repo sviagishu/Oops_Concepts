@@ -18,7 +18,7 @@ public class getSecondLargestValue {
 		//int lar = a[a.length-2];
 		
 		System.out.println("Second Largest: " + (lar));
-		System.out.println("Second Largest: " + (lar3));
+		System.out.println("Third Largest: " + (lar3));
 	}
 
 }

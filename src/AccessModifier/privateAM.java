@@ -12,9 +12,9 @@ class A {
 	}
 	
 	// constructor
-	private A() {
- 
-	}
+//	private A() {
+// 
+//	}
 }
 
 class privateAM {

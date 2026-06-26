@@ -11,7 +11,7 @@ interface show {
 	void printt();
 }
 
-   class displayy implements print,show {
+class displayy implements print,show {
     public void printt() {
 		System.out.println("printable & Showable");
 	}

@@ -8,14 +8,14 @@ public class ReverseParticularWord {
 		String s2 = s.toLowerCase();
 		
 		//Split a string into words
-		String[] words = s2.split(" ");
+		String words[] = s2.split(" ");   // split return string of array
 		
-		int len = words.length;
-		System.out.println(len);
+		int len = words.length;   // 3
+		 System.out.println(len);
 		
 		//Find the word sekar and reverse it
 		
-		for(int i=0; i<words.length;i++) 
+		for(int i=0; i<len;i++) 
 		{
 			if(words[i].equals("sekar")) {
 				//reverse the word
@@ -24,7 +24,7 @@ public class ReverseParticularWord {
 		}
 		
 		//join the words back into a single string
-		String result = String.join(" ",words);
+		String result = String.join(" ",words);   //which joins all array elements with spaces:
 		
 		// output
 		System.out.println(result);

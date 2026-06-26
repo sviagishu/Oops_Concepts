@@ -32,7 +32,7 @@ public class SortingAnArray {
 			    int temp;
 			   
 			    System.out.println("for loop");
-			    for(int i=0; i<=5; i++) {
+			     for(int i=0; i<=5; i++) {
 			    	for(int j=i+1; j<=5; j++) {
 			    		if(b[i]>b[j]) {
 			    			temp = b[i];

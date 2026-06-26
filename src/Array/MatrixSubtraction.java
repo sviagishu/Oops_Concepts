@@ -44,7 +44,7 @@ public class MatrixSubtraction {
 				System.out.print(c[i][j] + " ");
 				
 			}
-			System.out.println( );
+			System.out.println( ); // next row
 		}
 	}
 }

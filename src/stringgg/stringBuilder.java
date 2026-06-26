@@ -1,6 +1,6 @@
-package String;
+package stringgg;
 
-public class StringBuilder {
+public class stringBuilder {
 
 	public static void main(String[] args) {
 		

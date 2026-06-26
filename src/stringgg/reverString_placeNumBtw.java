@@ -1,4 +1,4 @@
-package String;
+package stringgg;
 
 public class reverString_placeNumBtw {
 	public static void main(String args[]) {
@@ -6,7 +6,8 @@ public class reverString_placeNumBtw {
 		String rev = "";
 		
 		//creating an empty string
-	     StringBuilder st = new StringBuilder();
+	     //stringBuilder st = new stringBuilder();
+		java.lang.StringBuilder st = new java.lang.StringBuilder(); // forcing to use buildin class
 	     
 	     //reverse a given string
 	     int len = input.length();
@@ -18,7 +19,9 @@ public class reverString_placeNumBtw {
 	     
 	     // append each character with its position
 	     for(int i=0; i<rev.length(); i++) {
-	    	 st.append(rev.charAt(i)).append(i+1);
+	      //st.append(rev.charAt(i)).append(i+1);
+	    	 st.append(rev.charAt(i));
+	    	 st.append(i + 1);
 	     }
 	     
 	     System.out.println(st.toString());

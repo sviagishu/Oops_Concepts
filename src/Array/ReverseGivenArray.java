@@ -14,6 +14,8 @@ public class ReverseGivenArray {
 		
 		//getting input in run time
 //		int a[] = new int [5];
+		
+		
 //		System.out.print("Enter an array:");
 //		Scanner sc = new Scanner(System.in);
 //		

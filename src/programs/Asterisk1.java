@@ -11,9 +11,9 @@ public class Asterisk1 {
 
 	public static void main(String[] args) {
 	
-		for(int i=1; i<=5; i++) {
-			for( int j=1; j<=i; j++) {
-				System.out.print("* \t");
+		for(int i=1; i<=5; i++) {       // controls the rows
+			for( int j=1; j<=i; j++) {  // controls the number of stars in each rows
+			  System.out.print("* \t");
 			}
 			System.out.println(" ");
 			}
